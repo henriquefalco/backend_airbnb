@@ -1,9 +1,8 @@
 # Backend do AirBnB usando Adonis Js
 
 1. Desenvolvido autenticação por JWT em API REST
-2. Desenvolvido o CRUD e relações em API REST
-3. Desenvolvido o sistema de Geolocalização por latitude e longitude
-   Adicionado a funcionalidade de upload de imagens para os imoveis.
+2. Desenvolvido o CRUD dos imoveis e relações em API REST
+3. Desenvolvido o sistema de Geolocalização por latitude e longitude e adicionado a funcionalidade de upload de imagens para os imoveis.
 
 # Adonis API application using
 
