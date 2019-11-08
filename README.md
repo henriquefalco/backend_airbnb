@@ -1,6 +1,11 @@
-# Adonis API application
+# Backend do AirBnB usando Adonis Js
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+1. Desenvolvido autenticação por JWT em API REST
+2. Desenvolvido o CRUD e relações em API REST
+3. Desenvolvido o sistema de Geolocalização por latitude e longitude
+   Adicionado a funcionalidade de upload de imagens para os imoveis.
+
+# Adonis API application using
 
 1. Bodyparser
 2. Authentication
@@ -8,7 +13,7 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 4. Lucid ORM
 5. Migrations and seeds
 
-## Setup
+# Setup
 
 Use the adonis command to install the blueprint
 

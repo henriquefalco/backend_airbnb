@@ -17,10 +17,22 @@
 
 const Route = use('Route')
 
-Route.post('/users', 'UserController.create')
-
-Route.post('/sessions', 'SessionController.create')
-
+//Index Route
 Route.get('/', () => {
   return { greeting: 'Hello world in JSON' }
 })
+
+//Create User
+Route.post('/users', 'UserController.create')
+
+//Make login, return = Token
+Route.post('/sessions', 'SessionController.create')
+
+//Routes from Property functions
+Route.resource('properties', 'PropertyController').apiOnly().middleware('auth')
+
+//Routes from Property Images
+Route.post('properties/:id/images', 'ImageController.store').middleware('auth')
+
+//Routes to show images 
+Route.get('images/:path', 'ImageController.show')
