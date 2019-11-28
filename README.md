@@ -13,6 +13,11 @@
 4. Lucid ORM
 5. Migrations and seeds
 
+# Start test
+```bash
+adonis serve --dev
+```
+
 # Setup
 
 Use the adonis command to install the blueprint
